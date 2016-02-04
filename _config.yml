@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: andersgodballe.github.io
+name: Anders Godballe
+avatar: https://avatars0.githubusercontent.com/u/8074000?v=3&s=40
+email: 
+description: "This blog is about learning and development"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://andersgodballe.github.io" # the base hostname & protocol for your site
+twitter_username: andersgodballe
+github_username:  andersgodballe
+
+# Build settings
+markdown: kramdown

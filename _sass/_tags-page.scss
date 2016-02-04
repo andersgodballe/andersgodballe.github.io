@@ -1,0 +1,36 @@
+.tags {
+
+    ul {
+        list-style-type: none;
+        border-bottom: lighten($grey-color, 20%) dotted 1px;
+        margin: 0 0 20px 0;
+        padding: 0 0 20px 0;
+    }
+
+    .tags-list {    
+        > li {
+            display: inline;
+            padding: 0 4px;
+            background: #EEE;
+            
+            > a {
+                font-size: $base-font-size * 0.65;
+                
+                &:visited {
+                    color: $brand-color;
+                }
+            }
+        }
+    }
+    
+    > a {
+        color: $text-color;
+        font-weight: $base-font-weight + 200;
+     
+        &:hover {
+            text-decoration: none;
+            color: $text-color
+        }
+    }
+        
+}
