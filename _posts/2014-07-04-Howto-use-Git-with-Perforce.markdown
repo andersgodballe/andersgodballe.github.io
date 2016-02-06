@@ -4,6 +4,7 @@ title: Howto use Git with Perforce
 author: Anders Godballe
 tags: [Git, Perforce]
 categories: [Programming]
+postimage: "/images/Branching-Strategy.png"
 ---
 
 This is a little guide on how I got Git to work on top of Perforce

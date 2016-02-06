@@ -1,0 +1,143 @@
+body {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  color: $text-color;
+}
+
+p {
+  line-height: $base-line-height;
+  margin: $spacing-unit 0;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $base-font-family;
+  font-weight: $base-font-weight + 300;
+}
+
+a {
+  color: $text-color;
+}
+
+a:hover,
+a:focus {
+  color: $link-color-hover;
+}
+
+a img:hover,
+a img:focus {
+  cursor: zoom-in;
+}
+
+blockquote {
+  color: $quote-text-color;
+  font-style: italic;
+}
+
+/*
+
+    NAVIGATION START
+
+*/
+
+.navbar-default {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: rgb(0, 25, 25); /* Fall-back for browsers that don't support rgba */
+    background: rgba(0, 25, 25, .5);
+    
+    .navbar-brand {
+        color: #fff;
+        font-family: $base-font-family;
+        
+        &:visisted {
+            color: #fff;
+        }
+        &:hover {
+            color: #ddd;
+        }
+    }
+    
+    .navbar-nav li a{
+        color: #fff;
+        
+        &:visisted {
+            color: #fff;
+        }
+        &:hover {
+            color: #ddd;
+        }
+    }
+}
+
+/*
+
+    JUMBOTRON START
+
+*/
+
+.jumbotron {
+    background: no-repeat center center;
+    background-color: #000;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 50px;
+    background-image: url("/images/main.jpg");
+}
+
+.jumbotron-title {
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    
+    a {
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .jumbotron-title {
+        padding: 100px 0;
+    }
+}
+
+/*
+
+    HOMEPAGE START
+
+*/
+
+.post-preview {
+    a:hover {
+        text-decoration: none;
+    }
+    
+    p {
+        color: $quote-text-color;
+        
+        a {
+            text-decoration: none;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        
+    }
+}
