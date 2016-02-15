@@ -25,7 +25,7 @@ layout: default
                         <h1>{{ post.title }}</h1>
                         <h4>{{ post.excerpt | strip_html }}</h4>
                     </a>
-                    <p>Posted by <a href="#">{{post.author}}</a> on {{ post.date | date: "%b %-d, %Y" }}</p>
+                    <p>Posted by <i>{{post.author}}</i> on {{ post.date | date: "%b %-d, %Y" }}</p>
                 </div>
                 <hr>
             {% endfor %}
